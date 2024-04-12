@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>开源的android 天气app 风云天气 | 司马当着活马</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://bqxqn.github.io/favicon.ico?v=1712933386932">
+<link rel="stylesheet" href="https://bqxqn.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="
+主要功能
+全球每日和逐小时天气预报，包括：天气状况、温度、大气压、相对湿度、降水量、风力风速风向、能见度、日出日落和月升月落等
+中国城市还有AQI空气质量数据
+逐小时天气动态曲线
+城市搜索，支持模糊搜索和搜索建议
+城市管理
+单位转换
+天气..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://bqxqn.github.io">
+        <img src="https://bqxqn.github.io/images/avatar.png?v=1712933386932" class="site-logo">
+        <h1 class="site-title">司马当着活马</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://github.com/bqxqn" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      我的小破站
+    </div>
+    <div class="site-footer">
+      友谊链接       <a href="https://zhicheng233.top" target="_blank">志成233的小站</a>
+
+     <a href="http://3272737852.top" target="_blank">免费工具分享站</a> | <a class="rss" href="https://bqxqn.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">开源的android 天气app 风云天气</h2>
+            <div class="post-date">2024-03-11</div>
+            
+              <div class="feature-container" style="background-image: url('https://bqxqn.github.io/post-images/kai-yuan-de-android-tian-qi-app-feng-yun-tian-qi.png')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <p><img src="https://bqxqn.github.io/post-images/1710164252275.png" alt="" loading="lazy"><br>
+主要功能<br>
+全球每日和逐小时天气预报，包括：天气状况、温度、大气压、相对湿度、降水量、风力风速风向、能见度、日出日落和月升月落等<br>
+中国城市还有AQI空气质量数据<br>
+逐小时天气动态曲线<br>
+城市搜索，支持模糊搜索和搜索建议<br>
+城市管理<br>
+单位转换<br>
+天气特效<br>
+源码是github开源的，使用 Kotlin 语言编写，采用 MVVM 架构和 OkHttp、coil、Room 等框架，代码逻辑清晰，适合新手入门和学习。</p>
+<p>github地址：https://github.com/wsj1024/FengYunWeather<br>
+安装包apk下载地址：</p>
+<p>蓝奏云：https://dhzy.lanzoui.com/iWkCjsbfffe</p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://bqxqn.github.io/post/hao-yong-de-xia-zai-qi-neat-download-manager-1310/">
+                  <h3 class="post-title">
+                    好用的下载器Neat Download Manager 1.3.10
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+
+  </body>
+</html>
